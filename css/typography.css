@@ -1,0 +1,139 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h1, h2,
+h3, h4,
+h5, h6 {
+  padding: 0;
+  margin: 15px 0;
+  line-height: initial;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+h5 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h5 {
+  margin: 0;
+  font-size: 18px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+  text-decoration: underline;
+}
+
+ol, ul {
+  display: block;
+  margin: 10px 0;
+  padding-left: 36px;
+}
+
+ol {
+  padding-left: 30px;
+}
+
+ol li {
+  padding-left: 10px;
+}
+
+ul li {
+  padding-left: 4px;
+}
+
+blockquote{
+  font-size: 30px;
+  background: #e4e1e1;
+  border-left: 10px solid #b5b5b5;
+  margin: .5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  padding: 10px 20px;
+  line-height: 1.4;
+}
+
+blockquote:before {
+  content: open-quote;
+  display: inline;
+  height: 0;
+  line-height: 0;
+  left: -10px;
+  position: relative;
+  top: 30px;
+  color: #ccc;
+  font-size: 3em;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+blockquote footer {
+  margin:0;
+  text-align: right;
+  font-size: 1em;
+  font-style: italic;
+}
+
+blockquote footer:before {
+  content: "—";
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.trim {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.section-title {
+  overflow: hidden;
+}
+
+.section-title:after {
+  content: "";
+  display: inline-block;
+  height: .5em;
+  width: 100%;
+  vertical-align: middle;
+  margin: 6px -100% 0 10px;
+  border-top: 1px solid #515a6e;
+}

@@ -1,0 +1,46 @@
+body {
+  background: #f1efef;
+}
+
+a {
+  color: #1d92cf;
+}
+
+.header-container {
+  background: #000000;
+  color: #f1efef;
+}
+
+.sidebar-container {
+  background: #d4d4d4;
+}
+
+.nav-menu ul li a:hover,
+.nav-menu ul li a:focus,
+.nav-menu ul li a:active {
+  background: #1d92cf;
+  color: #f1efef;
+}
+
+.footer-container {
+  background: #3a3a3a;
+  color: #f1efef;
+  text-align: center;
+}
+
+.button {
+  background: #1d92cf;
+  color: #f1efef;
+  border-color: #1d92cf;
+}
+
+.button.outline {
+  background: #f1efef;
+  color: #1d92cf;
+}
+
+@media(max-width: 320px) {
+  .nav-menu ul li a {
+    border-color: #1d92cf;
+  }
+}

@@ -1,0 +1,120 @@
+@media(max-width: 480px) {
+  .wrapper {
+    display: grid;
+    margin: 0;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas:
+      "header header header header header header"
+      "sidebar sidebar sidebar sidebar sidebar sidebar"
+      "content content content content content content"
+      "footer footer footer footer footer footer";
+  }
+
+  .header-container {
+    text-align: center;
+  }
+
+  .nav-menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .nav-menu ul li {
+    flex: 0 48%;
+    display: block;
+  }
+
+  .nav-menu ul li a {
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+  }
+
+  .top-articles {
+    grid-template-rows: repeat(4, 180px);
+  }
+
+  .box.big {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    margin-bottom: 5px;
+  }
+
+  .box.small {
+    grid-column: 1 / 5;
+    margin-bottom: 5px;
+  }
+
+  .box.small:last-child {
+    margin-bottom: 0;
+  }
+
+  .post-card {
+    flex: 0 100%;
+  }
+
+  .post-card-image {
+    flex: 0 25%;
+  }
+
+  .post-brief {
+    flex: 0 63%;
+  }
+
+  .social-buttons {
+    flex-wrap: wrap;
+    height: 156px;
+  }
+
+  .social-button {
+    flex: 0 100%;
+  }
+
+  .author-card {
+    justify-content: space-around;
+  }
+
+  .about-author {
+    text-align: center;
+  }
+}
+@media(min-width: 481px) and (max-width: 900px) {
+  .post-card {
+    flex: 0 100%;
+  }
+
+  .post-card-image {
+    flex: 0 25%;
+  }
+
+  .post-brief {
+    flex: 0 63%;
+  }
+
+  .author-card {
+    justify-content: space-around;
+  }
+
+  .about-author {
+    text-align: center;
+  }
+
+}
+@media(min-width: 901px) and (max-width: 1100px) {
+  .post-card {
+    flex: 0 45%;
+  }
+
+  .post-card-image {
+    flex: 0 25%;
+  }
+
+  .post-brief {
+    flex: 0 63%;
+  }
+
+  .about-author {
+    flex: 0 73%;
+  }
+}
